@@ -1,0 +1,6 @@
+This project is a custom Chromium-based browser built using Electron and PyQt6.
+On the JavaScript side, it uses Electron to create a desktop window that embeds Chromium, with a preload script exposing a safe API for navigation and future features.
+On the Python side, it includes a PyQt6 application that wraps QtWebEngine (Chromium) to provide a traditional desktop browser window with a URL bar and navigation controls.
+Together, these components form a flexible foundation for experimenting with custom browser features, UI, and automation on top of the same rendering engine that powers Google Chrome.
+Author: akameda
+Version: 0.1

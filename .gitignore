@@ -1,0 +1,40 @@
+__pycache__/
+*.py[cod]
+*.pyd
+*.dll
+*.so
+*.dylib
+
+# Python / venv
+.venv/
+venv/
+env/
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Local binaries
+*.exe
+
+# Qt / PyQt cache
+*.qmlc
+*.jsc
+
+# Node / JS
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# IDE / OS
+.vscode/
+.idea/
+*.iml
+Thumbs.db
+.DS_Store
+
+# Project-specific
+code/build/
+code/dist/
+base/BrokenArrow.exe
